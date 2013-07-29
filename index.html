@@ -3,21 +3,22 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Open Data Campus</title>
-	<link rel="stylesheet" href="bootstrap.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="index.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="lib/bootstrap.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/index.css" type="text/css" media="screen">
 	<link rel="shortcut icon" href="images/favicon.png"/>
 
-	<script type="text/javascript" src="jquery.js"></script>
-	<script type="text/javascript" src="brain.js"></script>
-	<script type="text/javascript" src="data.js"></script>
-	<script type="text/javascript" src="raphael.js"></script>
-	<script type="text/javascript" src="bootstrap-twipsy.js"></script>
-	<script type="text/javascript" src="bootstrap-modal.js"></script>
-	<script type="text/javascript" src="common.js"></script>
-	<script type="text/javascript" src="graph.js"></script>
-	<script type="text/javascript" src="cheese.js"></script>
-	<script type="text/javascript" src="ratiobar.js"></script>
-	<script type="text/javascript" src="coordinator.js"></script>
+	<script type="text/javascript" src="lib/jquery.js"></script>
+	<script type="text/javascript" src="lib/raphael.js"></script>
+	<script type="text/javascript" src="lib/bootstrap-twipsy.js"></script>
+	<script type="text/javascript" src="lib/bootstrap-modal.js"></script>
+
+  <script type="text/javascript" src="js/brain.js"></script>
+	<script type="text/javascript" src="js/data.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/graph.js"></script>
+	<script type="text/javascript" src="js/cheese.js"></script>
+	<script type="text/javascript" src="js/ratiobar.js"></script>
+	<script type="text/javascript" src="js/coordinator.js"></script>
 </head>
 <body>
 	<header>
@@ -25,7 +26,7 @@
 			<h1><a href="#">Open Data Campus</a></h1>
 		</nav>
 	</header>
-	
+
 	<!-- Modal popup appearing when we click on the about link. -->
 	<div id="about-modal" class="modal hide fade">
 		<div class="modal-header">
@@ -35,11 +36,11 @@
 		<div class="modal-body">
 			<p>Open data is one of the most important issue for the future of the Web", that's our conviction. The more we have data, the more outlooks are important. But the challenge is huge. Rough data are like crude oil : useless. We need to refine it to get petrol. The idea is to make the most and the quintessence of a large amount of rough public data. We have chosen the direction of leisure, with this question : <br/><br/>
 What is in French people's mind?<br/><br/>
-We are 4 students of Télécom ParisTech, fond of new technologies and highly motivated by the stakes they bring for our society. As we can say, we are a part of the digital natives. We have complementary skills : Julien is the one who imagined the interface with his strong design skills. Data-driven, he also organized the data-mining to choose the relevant figures to be processed, with Raphaël K. On their side, Raphaël M. and François used their talents as developers to achieve such a great web app in the little time we had. 
+We are 4 students of Télécom ParisTech, fond of new technologies and highly motivated by the stakes they bring for our society. As we can say, we are a part of the digital natives. We have complementary skills : Julien is the one who imagined the interface with his strong design skills. Data-driven, he also organized the data-mining to choose the relevant figures to be processed, with Raphaël K. On their side, Raphaël M. and François used their talents as developers to achieve such a great web app in the little time we had.
 </p>
 		</div>
 	</div>
-	
+
 	<div id="main" class="grid-container">
 		<a id="help_button" class="btn" data-controls-modal="about-modal" data-backdrop="backdrop">About</a>
 		<h2>What is in </br><strong>French people's mind?</strong></h2>
@@ -217,18 +218,18 @@ We are 4 students of Télécom ParisTech, fond of new technologies and highly mo
 			</div>
 	  </div>
 	  <div class="right_side">
-		
+
 		<!-- -->
 	    <h3 id="types_label"></h3>
 		  <div id="ratiobar"></div>
 			<div class="bubble green" id="cheese_info_bubble">
 				<p>What French prefer</p>
 			</div>
-		
+
 		<!-- -->
 		  <h3 id="titles_label"></h3>
 		  <div id="cheese"></div>
-			
+
 		  <div id="graph"></div>
 			<div class="bubble red" id="graph_info_bubble">
 				<p id="graph_info_text">What's this stuff...</p>
@@ -239,5 +240,5 @@ We are 4 students of Télécom ParisTech, fond of new technologies and highly mo
 	<p>This website was designed and developed for the Challenge <a href="http://www.etalab.gouv.fr/">Etalab</a> - Open Data Campus</p>
 	<p>by : Julien DEVEAUX, Raphaël KORACH, Raphaël MOUTARD et François WOUTS</p>
 </footer>
-</body>  
+</body>
 </html>
