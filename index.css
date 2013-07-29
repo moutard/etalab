@@ -1,0 +1,189 @@
+@font-face{
+	font-family: bebas_neue;
+	src: url(fonts/BebasNeue.otf);
+}
+@font-face{
+	font-family: pacifico;
+	src: url(fonts/Pacifico.ttf);
+}
+
+/* Overriding Bootstrap. */
+h1 {
+    margin: 0;
+    line-height: 3em;
+}
+
+h1 a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+body{
+	background-color: #e9d7af;
+}
+
+.grid-container{
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+	overflow: auto;
+}
+
+.left_side {
+	float: left;
+	width: 460px;
+}
+
+.right_side {
+	overflow: hidden;
+	padding-right: 1em;
+}
+
+#help_button {
+    float: right;
+    margin: 1em;
+}
+
+#cheese {
+	height: 230px;
+	width: 230px;
+	position: absolute;
+}
+
+#cheese .cheesepercent{
+  display:block;
+  float:left;
+  margin-left:100px;
+}
+
+#graph {
+	height: 244px;
+	width: 270px;
+	margin-left: 230px;
+	position: absolute;
+}
+
+#ratiobar {
+	height: 30px;
+}
+
+.bubble {
+    /*
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 1em 0.5em;
+    */
+    color:#aaa;
+}
+
+.bubble.blue {
+    /*border-color: #00f;
+    background: rgba(0, 0, 255, 0.2);*/
+    margin-top:20px;
+    margin-left: 20px;
+}
+
+.bubble.red {
+        /*border-color: #f00;
+        background: rgba(255, 0, 0, 0.2);*/
+}
+
+.bubble.green {
+    /*border-color: #0d0;
+    background: rgba(0, 200, 0, 0.2);*/
+    margin-top: 0.5em;
+}
+
+.bubble p {
+    margin: 0em;
+    padding: 0;
+}
+
+#cheese_info_bubble {
+
+
+    width: 220px;
+    /*margin:auto;*/
+    margin-top: 1em;
+}
+
+#graph_info_bubble {
+  float: right;
+    
+    margin:auto;
+    margin-top: 20px;
+    width: 240px;
+}
+
+h1 a{
+	font-family: bebas_neue;
+	font-size: 3em;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 0.5em;
+	text-shadow: 0px 3px 8px #c8b996;
+}
+
+h2{
+	font-family: pacifico;
+	font-size: 1.8em;
+	color: #333333;
+	font-weight: normal;
+	padding-top: 0.6em;
+	padding-left: 1em;
+	margin-bottom: 0em;
+	line-height: 1.5em;
+	text-indent: 1.2em;
+}
+
+h2 strong{
+	font-weight: normal;
+	font-size: 1.8em;
+}
+
+h3{
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	font-family: bebas_neue;
+	font-size: 1.5em;
+	color: #333333;
+	font-weight: normal;
+	
+}
+
+#main{
+	background-color: #ffffff;
+	border-radius: 10px 10px 0px 0px;
+	min-height: 650px;
+}
+
+#brainsvg{
+	position: relative;
+	padding-top: 5em;
+	padding-left: 2em;
+	z-index:1;
+	opacity:1;
+}
+
+#ratiobar{
+  margin-bottom: 0px;
+  
+}
+#layerArrow{
+	position: absolute;
+	z-index:2;
+}
+
+footer{
+	background-color: #515151;
+	text-align: center;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 0.8em;
+	color: #cccccc;
+	margin-top:0px;
+}
